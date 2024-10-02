@@ -13,6 +13,7 @@
 
 <?php 
 $incomingText = $_GET['incomingString'];
+$bannedWord = $_GET['textToCensure']
 ?> 
 
 <main>
@@ -25,7 +26,7 @@ $incomingText = $_GET['incomingString'];
             </div>
             
             <!-- replacing the needles in the haystack  -->
-            <?php $censuredText = str_ireplace('a','***', $incomingText); ?>
+            <?php $censuredText = str_ireplace($bannedWord,'***', $incomingText); ?>
 
             <!-- printing censured text -->
             <div class="col-12 bg-danger p-3 text-center text-dark border border-dark rounded fs-3 ">
