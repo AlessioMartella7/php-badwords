@@ -13,8 +13,8 @@
 
 <main>
     <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-6 bg-dark p-3 text-center">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 bg-dark p-3 text-center rounded">
                 <form action="./reciving.php">
                     <label for="incomingText" class="form-label text-white">Badwords to check:</label>
                     <input type="text" placeholder="scrivi qui"name="incomingString" id="incomingText">
