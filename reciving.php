@@ -20,16 +20,16 @@ $incomingText = $_GET['incomingString'];
         <div class="row justify-content-center align-items-center">
 
             <!-- printing incoming text and length -->
-            <div class="col-12 bg-info p-3 text-center text-white rounded fs-3 mb-4">
-                <p><?php echo $incomingText, ' is a string with a length of: ', strlen($incomingText); ?> </p>
+            <div class="col-12 bg-info p-3 text-center text-dark border border-dark rounded fs-3 mb-4">
+                <p><?php echo $incomingText, ', is a string with a length of: ', strlen($incomingText); ?> </p>
             </div>
             
             <!-- replacing the needles in the haystack  -->
             <?php $censuredText = str_ireplace('a','***', $incomingText); ?>
 
             <!-- printing censured text -->
-            <div class="col-12 bg-danger p-3 text-center text-white rounded fs-3 ">
-                <p><?php echo $censuredText, ' is a string with a length of: ', strlen($censuredText); ?> </p>
+            <div class="col-12 bg-danger p-3 text-center text-dark border border-dark rounded fs-3 ">
+                <p><?php echo $censuredText, ', is a string with a length of: ', strlen($censuredText); ?> </p>
             </div>
         </div>
     </div>

@@ -14,12 +14,12 @@
 <main>
     <div class="container mt-5">
         <div class="row justify-content-center align-items-center">
-            <div class="col-12 bg-dark p-3 text-center rounded">
+            <div class="col-12 bg-info-subtle p-3 text-center border border-dark rounded">
                 <form action="./reciving.php">
-                    <label for="incomingText" class="form-label text-white">Badwords to check:</label>
+                    <label for="incomingText" class="form-label fs-4 fw-bold me-2">Badwords to check:</label>
                     <input type="text" placeholder="scrivi qui"name="incomingString" id="incomingText">
-                <button class="btn btn-primary" type="submit">
-                click to send
+                <button class="btn btn-lg btn-info border border-dark fw-bold text-dark ms-2" type="submit">
+                Click to send
                 </button>
                 </form>
 
